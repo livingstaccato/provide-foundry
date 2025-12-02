@@ -11,7 +11,9 @@
       "Bash(for proj in pyvider wrknv terraform-provider-pyvider terraform-provider-tofusoup tofusoup pyvider-components provide-foundation provide-testkit)",
       "Bash(then grep \"hooks:\" \"$proj/mkdocs.yml\")",
       "Bash(else echo \"No mkdocs.yml\")",
-      "Bash(md5sum:*)"
+      "Bash(md5sum:*)",
+      "Bash(/Users/tim/.local/bin/we docs build:*)",
+      "Bash(/Users/tim/code/gh/provide-io/provide-foundry/.venv/bin/python:*)"
     ],
     "deny": [],
     "ask": [],
