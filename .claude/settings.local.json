@@ -23,7 +23,8 @@
       "Bash(uv sync:*)",
       "WebFetch(domain:github.com)",
       "Bash(pytest tests -x -q --tb=short:*)",
-      "Bash(pytest:*)"
+      "Bash(pytest:*)",
+      "Bash(uv pip install:*)"
     ],
     "deny": [],
     "ask": [],
