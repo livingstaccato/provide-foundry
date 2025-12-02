@@ -375,7 +375,16 @@
       "Bash(else echo \"  ❌ Title missing\")",
       "Bash(/Users/tim/code/gh/provide-io/provide-foundry/.venv/bin/mkdocs build --no-strict)",
       "Bash(/Users/tim/code/gh/provide-io/provide-foundry/.venv/bin/mkdocs build:*)",
-      "Bash(/Users/tim/code/gh/provide-io/provide-foundry/.venv/bin/pip show:*)"
+      "Bash(/Users/tim/code/gh/provide-io/provide-foundry/.venv/bin/pip show:*)",
+      "Bash(if [ -d site ])",
+      "Bash(then echo \"✅ MONOREPO BUILD SUCCESSFUL\")",
+      "Bash(mkdocs --version:*)",
+      "Bash(/bin/ls:*)",
+      "Bash(for dir in provide-foundation pyvider ci-tooling)",
+      "Bash(do echo \"=== $dir: Has Makefile? ===\")",
+      "Bash(else echo \"=== $dir NO Makefile ===\")",
+      "Bash(.venv/bin/python:*)",
+      "Bash(.venv/bin/python3:*)"
     ],
     "additionalDirectories": [
       "/Users/tim/code/gh/provide-io"
