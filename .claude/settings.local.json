@@ -24,7 +24,8 @@
       "WebFetch(domain:github.com)",
       "Bash(pytest tests -x -q --tb=short:*)",
       "Bash(pytest:*)",
-      "Bash(uv pip install:*)"
+      "Bash(uv pip install:*)",
+      "Bash(do kill %$id)"
     ],
     "deny": [],
     "ask": [],
