@@ -219,4 +219,4 @@ This roadmap is a living document that evolves based on:
 
 The Provide Foundry roadmap reflects our intent to build reliable, developer-friendly tools for Terraform provider development. We're excited about the journey ahead and welcome your participation in shaping the direction of the foundry.
 
-**Stay updated**: Watch the [provide-io/provide-io](https://github.com/provide-io/provide-io) repository for the latest developments and milestone updates.
+**Stay updated**: Watch the [provide-io/provide-io](https://github.com/provide-io/provide-io) repository for the latest developments and roadmap updates.
