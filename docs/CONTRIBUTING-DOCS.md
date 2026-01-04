@@ -217,7 +217,7 @@ Before submitting documentation changes:
 3. **Review rendered output**:
    ```bash
    mkdocs serve
-   # Open http://127.0.0.1:8000
+   # Open http://127.0.0.1:11000
    ```
 
 ## Common Documentation Tasks
