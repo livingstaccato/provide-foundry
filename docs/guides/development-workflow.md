@@ -355,7 +355,7 @@ uv sync
 
 ```bash
 # Check for version conflicts
-uv pip list | grep PACKAGE
+uv run python -c "import importlib.metadata as m; print(m.version('package-name'))"
 
 # Downgrade if needed
 uv add "package-name<2.0.0"
