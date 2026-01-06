@@ -11,6 +11,7 @@ from __future__ import annotations
 
 import logging
 import re
+import tempfile
 from pathlib import Path
 from typing import ClassVar
 
@@ -21,6 +22,9 @@ from mkdocs.structure.files import Files
 from mkdocs.structure.pages import Page
 
 log = logging.getLogger("mkdocs.plugins.crossrepo_links")
+
+# Get the actual system temp directory (respects TMPDIR env var)
+_TEMP_DIR = tempfile.gettempdir()
 
 
 class CrossRepoLinksPlugin(BasePlugin):  # type: ignore[type-arg,no-untyped-call]
